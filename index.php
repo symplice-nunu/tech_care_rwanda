@@ -1,3 +1,27 @@
+<?php
+
+if(isset($_POST["submit"])) {
+    $mailto = "symplicenunu@gmil.com";
+    $from = $_POST['email'];
+    $name = $_POST['name'];
+    $subject = $_POST['subject'];
+    $subject2 = "Your message submitted successfully";
+    $message = "Client Name: ".$name. "Wrote the following message". "\n\n". $_POST['message'];
+    $message2 = "Dear ".$name. "\n\n"."Thank you for contacting us! We'll get back to you shortly";
+    $headers = "From: ". $from;
+    $headers2 = "From: ". $mailto;
+    $result = mail($mailto, $subject, $message, $headers);
+    $result2 = mail($from, $subject2, $message2, $headers2);
+    if($result){
+        echo '<script type="text/javascript">alert("Message sent. Thank you! We will contact you shortly.")</script>';
+    }else{
+        echo '<script type="text/javascript">alert("Submission Failed! Try again Later.")</script>';
+    }
+
+   
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -65,7 +89,7 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li> -->
-          <li><a href="cont.php">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
@@ -793,7 +817,8 @@ Yes,we  provide gurantee of your repaired PC ,tablets or two-in-one computers.
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form"> -->
+            <form action="" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
@@ -821,7 +846,7 @@ Yes,we  provide gurantee of your repaired PC ,tablets or two-in-one computers.
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit" name="submit">Send Message</button></div>
             </form>
           </div>
 
