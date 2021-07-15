@@ -1,12 +1,13 @@
+
 <?php
 
 if(isset($_POST["submit"])) {
-    $mailto = "symplicenunu@gmil.com";
+    $mailto = "symplicenunu@gmail.com";
     $from = $_POST['email'];
     $name = $_POST['name'];
     $subject = $_POST['subject'];
     $subject2 = "Your message submitted successfully";
-    $message = "Client Name: ".$name. "Wrote the following message". "\n\n". $_POST['message'];
+    $message = "Client Name: ".$name. ", Wrote the following message". "\n\n". $_POST['message'];
     $message2 = "Dear ".$name. "\n\n"."Thank you for contacting us! We'll get back to you shortly";
     $headers = "From: ". $from;
     $headers2 = "From: ". $mailto;
@@ -816,9 +817,11 @@ Yes,we  provide gurantee of your repaired PC ,tablets or two-in-one computers.
 
           </div>
 
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch php-email-form">
             <!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form"> -->
-            <form action="" method="post" role="form" class="php-email-form">
+           
+            <form method="post" action="" >
+              <!-- <form method="POST" action="send" role="form" class="php-email-form"> -->
               <div class="form-row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
