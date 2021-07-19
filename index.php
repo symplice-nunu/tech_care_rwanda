@@ -68,11 +68,11 @@ if(isset($_POST["submit"])) {
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index.html">Home</a></li>
+          <li class="active"><a href="index.php">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
 <!--           <li><a href="#portfolio">Portfolio</a></li> -->
-          <li><a href="#team">Team</a></li>
+          <li class="active"><a href="#team">Team</a></li>
           <!-- <li class="drop-down"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -118,9 +118,14 @@ if(isset($_POST["submit"])) {
         </div>
       </div>
     </div>
-
+    <div style="background-color:gray; border-radius: 15px; width:2em; height:2em;padding-left:5px">
+  <a href="#contact"><i class="ri-arrow-down-line" style="font-size:20px; color:white;"></i></a>
+  </div>
+ 
   </section><!-- End Hero -->
-
+ 
+  
+   <!-- <div id="preloader"></div> -->
   <main id="main">
 
     <!-- ======= Cliens Section ======= -->
