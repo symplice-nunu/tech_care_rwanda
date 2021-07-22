@@ -2,7 +2,7 @@
 <?php
 
 if(isset($_POST["submit"])) {
-    $mailto = "symplicenunu@gmail.com";
+    $mailto = "techcarerwanda@gmail.com";
     $from = $_POST['email'];
     $name = $_POST['name'];
     $subject = $_POST['subject'];
@@ -72,7 +72,7 @@ if(isset($_POST["submit"])) {
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
 <!--           <li><a href="#portfolio">Portfolio</a></li> -->
-          <li class="active"><a href="#team">Team</a></li>
+          <li><a href="#team">Team</a></li>
           <!-- <li class="drop-down"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -118,8 +118,8 @@ if(isset($_POST["submit"])) {
         </div>
       </div>
     </div>
-    <div style="background-color:gray; border-radius: 15px; width:2em; height:2em;padding-left:5px">
-  <a href="#contact"><i class="ri-arrow-down-line" style="font-size:20px; color:white;"></i></a>
+    <div style="background-color:#FFFFFF; border-radius: 20px; width:2.5em; height:2.5em; padding-left:9px; padding-top:5px; margin-right: 1.1em; margin-top: 30em;">
+  <a href="#contact"><i class="ri-arrow-down-line" style="font-size:20px; color:#2C97DF;"></i></a>
   </div>
  
   </section><!-- End Hero -->
