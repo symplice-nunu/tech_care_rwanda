@@ -600,6 +600,7 @@ section {
   .cliens img {
     max-width: 40%;
   }
+  
 }
 
 /*--------------------------------------------------------------
@@ -764,6 +765,7 @@ section {
     padding-left: 0;
     padding-right: 0;
   }
+  
 }
 
 @media (max-width: 992px) {
@@ -776,12 +778,14 @@ section {
   .why-us .accordion-list {
     padding-bottom: 30px;
   }
+  
 }
 
 @media (max-width: 575px) {
   .why-us .img {
     min-height: 200px;
   }
+  
 }
 
 /*--------------------------------------------------------------

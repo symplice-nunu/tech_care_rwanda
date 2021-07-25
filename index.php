@@ -118,14 +118,14 @@ if(isset($_POST["submit"])) {
         </div>
       </div>
     </div>
-    <div style="background-color:#FFFFFF; border-radius: 20px; width:2.5em; height:2.5em; padding-left:9px; padding-top:5px; margin-right: 1.1em; margin-top: 30em;">
+    <div class="down-fl" style="background-color:#FFFFFF; border-radius: 20px; width:2.5em; height:2.5em; padding-left:9px; padding-top:5px; margin-right: 1.1em; margin-top: 30em;">
   <a href="#contact"><i class="ri-arrow-down-line" style="font-size:20px; color:#2C97DF;"></i></a>
   </div>
- 
+   
+  
   </section><!-- End Hero -->
  
   
-   <!-- <div id="preloader"></div> -->
   <main id="main">
 
     <!-- ======= Cliens Section ======= -->
@@ -580,7 +580,7 @@ With the increasing need of fast deliver + fair value and the need of always bei
 
           <div class="col-lg-6">
             <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic"><img src="assets/img/fulgence.jpg" class="img-fluid" alt=""></div>
+              <div class="pic" style="height: 17.5em;"><img src="assets/img/fulgence.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Fulgence Muhirwa </h4>
                 <span>Managing Director</span>
@@ -598,7 +598,7 @@ With the increasing need of fast deliver + fair value and the need of always bei
 
           <div class="col-lg-6 mt-4 mt-lg-0">
             <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-              <div class="pic"><img src="assets/img/diane.jpg" class="img-fluid" alt=""></div>
+              <div class="pic" style="height: 17.5em;"><img src="assets/img/diane.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Diane Tuyizere</h4>
                 <span>Operation Manager</span>
@@ -614,7 +614,97 @@ With the increasing need of fast deliver + fair value and the need of always bei
             </div>
           </div>
 
-<!--           <div class="col-lg-6 mt-4">
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pic" style="height: 17.5em;"><img src="assets/img/izere.jpeg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Demarillac Izere Diane</h4>
+                <span>Web Developer</span>
+                <!-- <p>Passionate about tech literacy and helping the youth to reach their potential because the youth can play big role in their own education and I  believe that empowering technology is key to success. 
+                </p> -->
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pic" style="height: 17.5em;"><img src="assets/img/mazina.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Mazina Dan</h4>
+                <span>Web Developer</span>
+                <!-- <p>Passionate about tech literacy and helping the youth to reach their potential because the youth can play big role in their own education and I  believe that empowering technology is key to success. 
+                </p> -->
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pic" style="height: 17.5em;"><img src="assets/img/girubuntu.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Girubuntu Samuel</h4>
+                <span>Web Developer</span>
+                <!-- <p>Passionate about tech literacy and helping the youth to reach their potential because the youth can play big role in their own education and I  believe that empowering technology is key to success. 
+                </p> -->
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pic" style="height: 17.5em;"><img src="assets/img/liplan.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Lekipising Liplan</h4>
+                <span>Web Assistant</span>
+                <!-- <p>Passionate about tech literacy and helping the youth to reach their potential because the youth can play big role in their own education and I  believe that empowering technology is key to success. 
+                </p> -->
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pic" style="height: 17.5em;"><img src="assets/img/lisa.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Lisa Africa</h4>
+                <span>Social Media & Communication Manager</span>
+                <!-- <p>Passionate about tech literacy and helping the youth to reach their potential because the youth can play big role in their own education and I  believe that empowering technology is key to success. 
+                </p> -->
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         <!-- <div class="col-lg-6 mt-4">
             <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
               <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
@@ -629,8 +719,8 @@ With the increasing need of fast deliver + fair value and the need of always bei
                 </div>
               </div>
             </div>
-          </div>
- -->
+          </div> -->
+ 
 <!--           <div class="col-lg-6 mt-4">
             <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
               <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
